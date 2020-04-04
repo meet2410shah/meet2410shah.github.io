@@ -9,7 +9,7 @@ let dif = time - current_time;
 
 let secs = parseInt(dif / 1000) % 60;
 let mins = parseInt(parseInt(dif / (1000*60)) % 60);
-let hs = parseInt(parseInt(dif / (1000*60*60)) % 60);
+let hs = parseInt(parseInt(dif / (1000*60*60)) % 24);
 let ds = parseInt(dif/(1000*60*60*24));
 
 seconds.innerHTML = secs;
