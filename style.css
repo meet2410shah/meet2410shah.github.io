@@ -1,0 +1,39 @@
+.title {
+	display: flex;
+	justify-content: center;
+	font-size: 50px;
+}
+.timer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.time {
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px 2px #aaa;
+	height: 110px;
+	width: 110px;
+	margin: 20px 50px 20px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+.sub-title {
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+}
+.time_seconds_only {
+	border: 1px solid black;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px 2px #aaa;
+	height: 100px;
+	width: 500px;
+	margin: 40px 50px 20px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
