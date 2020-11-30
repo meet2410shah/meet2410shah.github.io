@@ -1,0 +1,11 @@
+.box {
+	background-color: #f9f9f9;
+	color: #797979;
+	box-shadow: 0px 0px 2px 0px #aaa;
+	border-radius: 4px;
+	padding: 8px;
+	margin: 8px 0px;
+}
+.text {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
