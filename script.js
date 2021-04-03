@@ -3,7 +3,7 @@ const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 
-const time = new Date('20 November 2020').getTime() + 100 * 24 * 3600 * 1000;
+const time = new Date('24 October 2022').getTime() + 100 * 24 * 3600 * 1000;
 
 const seconds_only = document.querySelector('#seconds_only');
 
