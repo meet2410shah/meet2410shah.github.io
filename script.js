@@ -3,7 +3,7 @@ const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 
-const time = new Date('24 October 2022').getTime();
+const time = new Date('22 September 2027').getTime();
 let current_time = Date.now();
 let dif = time - current_time;
 
