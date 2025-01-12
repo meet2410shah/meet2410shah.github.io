@@ -3,7 +3,7 @@ const hours = document.querySelector('#hours');
 const minutes = document.querySelector('#minutes');
 const seconds = document.querySelector('#seconds');
 
-const time = new Date('22 September 2027').getTime();
+const time = new Date('10 February 2025').getTime();
 
 const Counter = setInterval(() => {
 	let current_time = Date.now();
